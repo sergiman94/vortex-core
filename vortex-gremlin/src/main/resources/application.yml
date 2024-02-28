@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /vortex-gremlin
+  port: 3030
+spring:
+  profiles:
+    active:
+      - development
+---
+
+spring:
+  profiles: development
